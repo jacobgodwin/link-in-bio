@@ -1,12 +1,55 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  /* background-color: #f4f3ee; */
+  background-image: url("/images/wickedbackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8a817c;
 }
 
 header > img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
+  border: 2px solid #e0afa0;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-radius: 2rem;
+  background-color: #bcb8b1;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+li:hover {
+  background-color: #e0afa0;
+  opacity: 50%;
+  transition: 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f3ee;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  padding-right: 0.6rem;
 }
