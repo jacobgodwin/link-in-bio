@@ -2,11 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #f4f3ee; */
-  background-image: url("/images/wickedbackground.svg");
+  background-color: #e5e5e5;
+  /* background-image: url("/images/wickedbackground.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   height: 100vh;
+  margin-top: 4rem;
+  font-family: 'Bitter', serif;
 }
 
 header {
@@ -14,13 +16,14 @@ header {
   flex-direction: column;
   align-items: center;
   color: #8a817c;
+  font-size: 0.5rem;
 }
 
 header > img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  border: 2px solid #e0afa0;
+  border: 4px solid #e0afa0;
 }
 
 li {
@@ -48,6 +51,7 @@ a {
 ul {
   padding: 0;
   margin: 0;
+  font-size: 1.2rem;
 }
 
 i {
